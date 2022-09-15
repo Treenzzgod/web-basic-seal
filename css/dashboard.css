@@ -83,5 +83,10 @@ body {
     background-image: url(/images/background.jpg);
     min-height: 50vh;
     width: 100%;
-    background-size: 100% 100%;
+    background-size: 100% 100%
+}
+.teksgambar>p{
+    color: #fff;
+    text-align: center;    
+    position: relative;
 }
