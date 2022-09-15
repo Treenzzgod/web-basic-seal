@@ -78,8 +78,10 @@ body {
 .active:hover {
     color: white !important;
 }
-.background-color{
-    background-color: grey;
-    width: 100%;
 
+.teksgambar{
+    background-image: url(/images/background.jpg);
+    min-height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
 }
