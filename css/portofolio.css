@@ -79,51 +79,74 @@ body {
     color: white !important;
 }
 
-.teksgambar{
-    background-image: url(/images/background.jpg);
-    min-height: 80vh;
-    width: 100%;
-    background-size: 100% 100%
-}
-.teksgambar > p{
+.wrapper-bg {
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
 
-    text-align: center;    
-    position: sticky;
-    
-    
 }
-.tekstengah{
-    top: 35% ;
-    font-size: 50px;
-    font-weight: 800;
+
+.img-bg {
+    width: 30vh;
+    height: 30vh;
+    background-size: 100% 100%;
+    padding: 40px;; 
+}
+.text-bg >h2{
+    margin-left: 90px;
     color: white;
-    /* background-color: rgb(161, 140, 113);
-    left: 40%;
-    width:fit-content;
-    padding: 10px; */
+    margin-top: 100px;
+    font-size: 30px;
 }
-.button-porto{
-    font-weight: 800;
-    font-size: 20px;
-    text-transform: capitalize;
-    top: 50%;
-    background-color: #fff;
-    width: min-content;
-    left:43.5%;
-    border-radius: 10px;
-    padding: 10px;
+.text-bg2{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 150px;
 }
-.button-porto > a{
-    text-decoration: none;
-    color: rgb(14, 12, 12);
+h3{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 220px;
+    margin-top: 20px;
+    font-size: 25px;
 }
-.button-porto:hover{
-    background-color: rgb(161, 140, 113);
-    color: white;
-    transition: all .3s ease-in-out;
+.text-bg3{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 150px;
 }
-.button-porto:active{
-    background-color: rgb(161, 140, 113);
-    color: white;
-    transition: all .3s ease-in-out;
+.pengalaman{
+    background-color: rgb(166, 167, 182);
+    padding: 20px;
+}
+.sertifikat{
+    background-color: rgb(166, 167, 182);
+    padding: 20px;
+}
+.list{
+    padding: 20px;
+}
+.table-skills{
+    background-color: rgb(166, 167, 182);
+    padding: 20px;
+}
+table,th,td{
+    border:1px #222 solid;
+    padding: 30px;
+    border-collapse: collapse;
+}
+.languages>h2{
+    padding: 20px;
+}
+.tools-img{
+    padding: 15px;
+    width: 5vh;
+    height: 5vh;
+    margin-left: 20px;
+}
+.tools-img2{
+    padding: 15px;
+    width: 10vh;
+    height: 10vh;
+    margin-left: 100px;
 }
