@@ -150,3 +150,12 @@ table,th,td{
     height: 10vh;
     margin-left: 100px;
 }
+.list>li>a{
+    text-decoration: none;
+    color: blue;
+}
+.sub{
+    background-color: rgb(166, 167, 182);
+    padding: 20px;
+    background-size: 100% 100%;
+}
