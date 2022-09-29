@@ -56,17 +56,17 @@ body{
     font-size: 13px;
 }
 
-.navigasi>li {
-    list-style-type: none;
+.navigasi>.li-nav {
+    list-style: none;
     padding: 15px;
 }
 
-.navigasi>li>a:hover {
+.navigasi>.li-nav>a:hover {
     color: crimson;
     transition: all .3s ease-in-out;
 }
 
-.navigasi>li>a {
+.navigasi>.li-nav>a {
     color: #fff;
     text-decoration: none;
 }
@@ -94,4 +94,19 @@ body{
 .profile{
     margin: 20px;
     font-size: 18px;
+}
+.keahlian{
+    margin: 20px;
+}
+.ol-kea{
+    margin-left: 20px;
+}
+.pendidikan{
+    margin: 20px;
+}
+.ol-pen{
+    margin-left: 20px;
+}
+.contact{
+    margin: 20px;
 }
